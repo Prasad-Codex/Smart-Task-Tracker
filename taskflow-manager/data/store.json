@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": "usr_demo_01",
+      "fullName": "Prasad Madhavan",
+      "email": "demo@taskflow.app",
+      "passwordHash": "63aeaf3c9556fe4cea4de225bbbfab824dc6f93f70752b5f97ca59df42fba0316b97ef072835c1c9754cc5010d1b2c72cbfe220852350cc47b89279121e4afc1",
+      "passwordSalt": "75c0f7f380d47e2bd35dcb23a9504151",
+      "createdAt": "2026-11-17T05:05:44.272Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "564bbe25978f6ef10d712720f4faf2ec580fa0e6febb32ff8098b4391af98828",
+      "userId": "usr_demo_01",
+      "expiresAt": 1795496744333
+    },
+    {
+      "token": "4fc123fdb14bdef2e49b426c3559895e53bf6d293893bbbde03d90127048cb78",
+      "userId": "usr_demo_01",
+      "expiresAt": 1795496749801
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk_01",
+      "userId": "usr_demo_01",
+      "title": "Finalize quarterly product roadmap",
+      "description": "Review engineering estimates and align release milestones with design lead before afternoon sync.",
+      "dueDate": "2026-11-17",
+      "priority": "High",
+      "status": "In Progress",
+      "createdAt": "2026-11-17T05:05:44.272Z",
+      "updatedAt": "2026-11-17T05:05:44.272Z"
+    },
+    {
+      "id": "tsk_02",
+      "userId": "usr_demo_01",
+      "title": "Send client onboarding checklist",
+      "description": "Prepare workspace access links and share initial setup documentation with the new account team.",
+      "dueDate": "2026-11-17",
+      "priority": "Medium",
+      "status": "Pending",
+      "createdAt": "2026-11-17T05:05:44.272Z",
+      "updatedAt": "2026-11-17T05:05:44.272Z"
+    },
+    {
+      "id": "tsk_03",
+      "userId": "usr_demo_01",
+      "title": "Audit database backup schedule",
+      "description": "Verify automated nightly snapshots and confirm retention policy matches compliance checklist.",
+      "dueDate": "2026-11-19",
+      "priority": "High",
+      "status": "Pending",
+      "createdAt": "2026-11-17T05:05:44.272Z",
+      "updatedAt": "2026-11-17T05:05:44.272Z"
+    },
+    {
+      "id": "tsk_04",
+      "userId": "usr_demo_01",
+      "title": "Update API authentication documentation",
+      "description": "Document session endpoints, token headers, and error codes for internal developers.",
+      "dueDate": "2026-11-21",
+      "priority": "Low",
+      "status": "Pending",
+      "createdAt": "2026-11-17T05:05:44.272Z",
+      "updatedAt": "2026-11-17T05:05:44.272Z"
+    },
+    {
+      "id": "tsk_05",
+      "userId": "usr_demo_01",
+      "title": "Review mobile navigation accessibility",
+      "description": "Check keyboard focus rings, contrast ratios, and touch target spacing on smaller screens.",
+      "dueDate": "2026-11-16",
+      "priority": "Medium",
+      "status": "Completed",
+      "createdAt": "2026-11-17T05:05:44.272Z",
+      "updatedAt": "2026-11-17T05:05:44.272Z"
+    }
+  ]
+}
